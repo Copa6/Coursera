@@ -6,7 +6,6 @@ body {
 
 .container{
 	min-width: 1200px;
-	max-width: 1400px;
 
 }
 .top-bar{
@@ -28,6 +27,8 @@ body {
 .nav{
 	min-width: 1200px;
 	vertical-align: bottom;
+	height:100px;
+	overflow: visible;
 
 }
  
@@ -93,4 +94,6 @@ h2{
 	.mobsite{
 		font-size: 120%;
 	}
+
+
 }
