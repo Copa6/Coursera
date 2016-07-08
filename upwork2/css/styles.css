@@ -19,6 +19,7 @@ header{
 	background-position: center;
 	border-radius: 50px
 }
+
 .box{
 	position: absolute;
 	top:0;
@@ -101,7 +102,3 @@ div.jumbotron{
 	text-align: center;
 	color:blue;
 }
-
-/*.col-md-4{
-	border-right:dotted #000;
-}*/
