@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+header{
+	position: relative;
+	margin-bottom: 0;
+}
+#header-nav {
+	border-radius: 0;
+	margin:0;
+}
+
+#logo-img {
+	background: url('../images/logo.png') no-repeat;
+	height:100px;
+	width:112px;
+	background-position: center;
+	border-radius: 50px
+}
+.box{
+	position: absolute;
+	top:0;
+	right:0;
+}
+input[type=text] {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #eee;
+    padding: 5px 20px 5px 40px;
+    margin-right: auto;
+    }
+#nav-list{
+	position:absolute;
+	bottom:0;
+	right:0;
+	margin-top:15px;
+	margin-right: 0;
+	text-transform: uppercase;
+	font-size:0.8em;
+}
+
+#nav-list a:hover, span.active{
+	color:blue;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid purple;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+ /*
+ HEADER ENDS*/
+
+div.jumbotron{
+	margin:auto;
+	background-image: url('../images/skydive.jpg');
+	background-position: center;
+	height:440px;
+}
+
+#quote{
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+	max-width: 500px;
+}
+
+#quote h2{
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+#quote span{
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+/*End of Jumbotron*/
+#quote, .text{
+	color:#370554;
+
+}
+.col-xs-12 h3{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 0;
+	margin-bottom: 0;
+}
+
+.intro{
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.center{
+	text-align: center;
+	color:blue;
+}
+
+/*.col-md-4{
+	border-right:dotted #000;
+}*/
