@@ -7,7 +7,7 @@
 	margin-top: 80px;
 }
 #logo-img{
-	background:url("../images/Saurabh.jpg") no-repeat;
+	background:url("../Images/Saurabh.jpg") no-repeat;
 	height:180px;
 	width:180px;
 	margin:10px 40px 10px 10px;
@@ -37,22 +37,22 @@
 }
 
 .links1{
-	background: url("../images/fb_icon_325x325.png")
+	background: url("../Images/fb_icon_325x325.png")
 }
 
 .links2{
-	background: url("../images/twitter.png")
+	background: url("../Images/twitter.png")
 }
 
 .links3{
-	background: url("../images/fb_icon_325x325.png")
+	background: url("../Images/fb_icon_325x325.png")
 }
 
 .links4{
-	background: url("../images/in.png")
+	background: url("../Images/in.png")
 }
 #company{
-	background-image: url("../images/logo.png");
+	background-image: url("../Images/logo.png");
 	height:50px;
 	width:50px;
 	margin:20px 10px 10px 80px;
