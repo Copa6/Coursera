@@ -36,6 +36,21 @@
 	border:1px solid black;
 }
 
+.links1{
+	background: url("../images/fb_icon_325x325.png")
+}
+
+.links2{
+	background: url("../images/twitter.png")
+}
+
+.links3{
+	background: url("../images/fb_icon_325x325.png")
+}
+
+.links4{
+	background: url("../images/in.png")
+}
 #company{
 	background-image: url("../images/logo.png");
 	height:50px;
