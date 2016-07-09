@@ -1,0 +1,75 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+#header-nav{
+	margin-top: 80px;
+}
+#logo-img{
+	background:url("../images/Saurabh.jpg") no-repeat;
+	height:180px;
+	width:180px;
+	margin:10px 40px 10px 10px;
+	border:2px solid #080483;
+}
+.navbar-brand h1{
+	color:#080483;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar-brand{
+	padding-left: 30px;
+}
+.navbar-brand span{
+	text-transform: uppercase;
+}
+
+.links{
+	height:50px;
+	width:50px;
+	margin: 10px 10px 10px 0px;
+}
+
+.links:hover{
+	border:1px solid black;
+}
+
+#company{
+	background-image: url("../images/logo.png");
+	height:50px;
+	width:50px;
+	margin:20px 10px 10px 80px;
+	border-radius: 50px;
+}
+figure{
+	padding-right: 60px;
+	border-right: 0.5px dotted black;
+}
+
+figcaption{
+	margin-left: 40px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #080483;
+	text-transform: uppercase;
+}
+figcaption span{
+	color:black;
+	font-size:0.6em;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.details{
+	color:#080483;
+}
+.jumbotron{
+	background-color:#080483;
+	padding: 20px 80px 20px 80px;	
+}
+
+.jumbotron span{
+	color:#fff;
+}
