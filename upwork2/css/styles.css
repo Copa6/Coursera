@@ -102,3 +102,24 @@ div.jumbotron{
 	text-align: center;
 	color:blue;
 }
+
+.panel-footer{
+	background-color: #666;
+	position: relative;
+}
+
+#copy, #contact{
+	padding-bottom:10px;
+}
+section span{
+	color:#ddd;
+
+
+}
+
+@media (max-width: 800px){
+	#copy, #contact{
+	text-align: center;
+}
+
+}
