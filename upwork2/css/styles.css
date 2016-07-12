@@ -30,7 +30,7 @@ header{
   line-height: .75;
  
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover, .navbar-brand a:focus, .text span a:hover {
   text-decoration: none;
 }
 #logo-img {
@@ -142,7 +142,12 @@ section span{
 	padding:10px auto 10px;
 	position: center;
 }
-
+.text a{
+	color:blue;
+}
+.text a:hover{
+	color:#d200fc;
+}
 
 @media (max-width: 800px){
 	#copy, #contact{
