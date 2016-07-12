@@ -33,7 +33,7 @@ header{
 .navbar-brand a:hover, .navbar-brand a:focus, .text span a:hover {
   text-decoration: none;
 }
-#logo-img {
+#logo-img, .logo-img {
 	background: url('../images/LogoMakr.png') no-repeat;
 	height:100px;
 	width:112px;
