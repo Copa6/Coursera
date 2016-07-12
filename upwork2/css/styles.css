@@ -3,6 +3,10 @@
 	margin:0;
 	padding:0;
 }
+body{
+	background-image: url('') no-repeat;
+	height:inherit;
+}
 header{
 	position: relative;
 	margin-bottom: 0;
@@ -30,7 +34,7 @@ header{
   text-decoration: none;
 }
 #logo-img {
-	background: url('../images/logo.png') no-repeat;
+	background: url('../images/LogoMakr.png') no-repeat;
 	height:100px;
 	width:112px;
 	background-position: center;
@@ -43,10 +47,13 @@ header{
 	font-size:0.8em;
 }
 
-#nav-list a:hover, span.active{
+#nav-list a:hover{
 	color:blue;
 }
 
+span.active{
+	color:#370554;
+}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid purple;
 }
@@ -59,11 +66,12 @@ header{
 
 .jumbotron{
 	margin:auto;
-	background-image: url('../images/skydive.jpg');
 	background-position: center;
 	height:440px;
 }
-
+.index{
+	background-image: url('../images/skydive.jpg');
+}
 #quote{
 	margin: auto;
 	padding-top: 50px;
@@ -98,7 +106,7 @@ header{
 	text-align: center;
 	margin-bottom: 20px;
 }
-.center{
+.center, h4{
 	text-align: center;
 	color:blue;
 }
@@ -107,7 +115,10 @@ header{
 	background-color: #666;
 	position: relative;
 }
-
+#logo-mob{
+	background-position: center;
+	border-radius: 60px;
+}
 #copy, #contact{
 	padding-bottom:10px;
 }
@@ -122,4 +133,16 @@ section span{
 	text-align: center;
 }
 
+}
+
+@media (max-width: 767px){
+
+#nav-list li{
+	text-align: center;
+}
+}
+/*page 1 ends*/
+
+.about_us{
+	background-image: url('../images/about.png');
 }
