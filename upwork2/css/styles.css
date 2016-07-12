@@ -148,7 +148,9 @@ section span{
 .text a:hover{
 	color:#d200fc;
 }
-
+.contact_us{
+	background-image: url('../images/call_us.jpg');
+}
 @media (max-width: 800px){
 	#copy, #contact{
 	text-align: center;
