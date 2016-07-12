@@ -52,7 +52,7 @@ header{
 }
 
 span.active{
-	color:#370554;
+	color:#d200fc;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid purple;
@@ -125,8 +125,24 @@ span.active{
 section span{
 	color:#ddd;
 
-
 }
+
+.text{
+	padding-top:10px;
+}
+
+.about_us{
+	background-image: url('../images/about.png');
+}
+
+.service{
+	background-image: url('../images/skydiving_2.jpg');
+}
+.description{
+	padding:10px auto 10px;
+	position: center;
+}
+
 
 @media (max-width: 800px){
 	#copy, #contact{
@@ -143,6 +159,3 @@ section span{
 }
 /*page 1 ends*/
 
-.about_us{
-	background-image: url('../images/about.png');
-}
