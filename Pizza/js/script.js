@@ -4,4 +4,8 @@
 		move.toggleClass('slide-body');
 		return false;
 	});
+	$('body').bind('click', function(){
+		move.toggleClass('slide-body');
+		return false;
+	});
 })();
