@@ -5,9 +5,11 @@
 }
 
 #header-nav{
+	position: fixed;
 	background-color: #000;
 	margin-bottom: 0;
 	border:1px solid black;
+	width:100%;
 	
 
 }
@@ -21,9 +23,6 @@
 }
 .clickbutton:hover, .clickbutton:active{
 	background-color: #333;
-}
-.mybutton{
-	margin-right: 104px;
 }
 
 #clickbutton:hover{
@@ -44,7 +43,7 @@
 	color:#ff5100;
 }
 .content{
-	position: relative;
+	padding-top: 140px;
 	overflow:auto;
 	clear:right;
 }
@@ -68,7 +67,6 @@
 	border-radius: 10px;
 	color:#aaa;
 	position:fixed;
-	top:0;
 	right:-103px;
 	height:100%;
 	z-index: 1000;
