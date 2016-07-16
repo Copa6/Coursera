@@ -39,7 +39,7 @@
 .content{
 	position: relative;
 	overflow:auto;
-	right:0;
+	clear:right;
 }
 
 .slide-body{
@@ -64,6 +64,7 @@
 	top:100;
 	right:-103px;
 	height:100%;
+	z-index: 1000;
 
 }
 #nav-list{
