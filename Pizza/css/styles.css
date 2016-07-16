@@ -90,17 +90,15 @@
   	shape-image-threshold: 0.5;
 }
 
-/*
-@media (max-width: 769px) {
-	#header-nav, #navigation{
-		position: static;
-	}
-	#navigation{
-		margin-bottom:0px;
+
+@media (max-width: 474px) {
+	#logo-img{
+		height: 80px;
+		width:80px;
 	}
 	
 }
-
+/*
 @media (min-width: 768px){
 	#header-nav{
 			height:100px;
