@@ -73,18 +73,17 @@
 	font-size:0.8em;
 }
 
-
-/*#pizza{
-	position: relative;
+#pizza-background{
+	border-radius: 389px;
 }
 
-#quote{
-	font-size:1.3em;
-	font-style: italic;
-	text-transform: none;
-	color:#ff5100;
+.container{
+	overflow:hidden;
+	shape-outside: polygon(1531px 495px, 1567px 318px, 1708px 177px, 1906px 126px, 2135px 198px, 2270px 441px, 2189px 681px,1924px 828px,1648px 741px );
+  	shape-image-threshold: 0.5;
 }
 
+/*
 @media (max-width: 769px) {
 	#header-nav, #navigation{
 		position: static;
