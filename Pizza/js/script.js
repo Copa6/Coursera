@@ -27,6 +27,13 @@
 		clicker.removeClass('glyphicon-remove');
 		clicker.addClass('glyphicon-align-justify');
 	});
+	$('body').on('scroll', function(){
+		move.removeClass('slide-body');
+		main.addClass('col-xs-12');
+		main.removeClass('col-xs-9 col-sm-11 col-md-11');
+		clicker.removeClass('glyphicon-remove');
+		clicker.addClass('glyphicon-align-justify');
+	});
 
 
 
