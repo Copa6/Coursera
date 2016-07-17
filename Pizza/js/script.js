@@ -13,6 +13,9 @@
 		main.addClass('col-xs-12');
 		main.removeClass('col-xs-9 col-sm-11 col-md-11');
 	});
+	$('.content').bind('click', function(){
+		move.removeClass('slide-body');
+	});
 
 
 
