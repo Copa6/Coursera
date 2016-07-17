@@ -63,6 +63,12 @@
 	-moz-transition: right 300ms ease;
 	transition: right 300ms ease;
 }
+.main{
+	-webkit-transition: width 300ms ease;
+	-moz-transition: width 300ms ease;
+	transition: width 300ms ease;
+}
+
 .menu{
 	color:#aaa;
 	position:fixed;
