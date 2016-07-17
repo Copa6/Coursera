@@ -67,7 +67,6 @@
 	color:#aaa;
 	position:fixed;
 	right:-103px;
-	height:100%;
 	z-index: 1000;
 
 }
@@ -80,6 +79,7 @@
 .list-items{
 	background-color: #333;
 	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 #pizza-background{
