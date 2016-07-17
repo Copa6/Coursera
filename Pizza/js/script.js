@@ -6,7 +6,7 @@
 		move.toggleClass('slide-body');
 		main.toggleClass('col-xs-9 col-sm-11 col-md-11');
 		main.toggleClass('col-xs-12');
-		clicker.addClass('glyphicon-remove');
+		clicker.toggleClass('glyphicon-remove');
 		clicker.toggleClass('glyphicon-align-justify');
 		return false;
 		
