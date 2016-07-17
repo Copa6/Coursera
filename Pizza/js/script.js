@@ -1,20 +1,22 @@
 (function(){
 	var move = $('.content');
 	var main = $('.main');
-	$('.navigator').bind('click', function(){
+	$('.navigator').bind('mouseenter', function(){
 		move.toggleClass('slide-body');
 		main.toggleClass('col-xs-9 col-sm-11 col-md-11');
 		main.toggleClass('col-xs-12');
 		return false;
 		
 	});
-	$('.navigator').bind('blur', function(){
+	$('.navigator').bind('mouseleave', function(){
 		move.removeClass('slide-body');
 		main.addClass('col-xs-12');
 		main.removeClass('col-xs-9 col-sm-11 col-md-11');
 	});
 	$('.content').bind('click', function(){
 		move.removeClass('slide-body');
+		main.addClass('col-xs-12');
+		main.removeClass('col-xs-9 col-sm-11 col-md-11');
 	});
 
 
