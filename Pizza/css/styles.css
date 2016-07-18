@@ -132,7 +132,39 @@
 	}
 	
 }
-@media (max-width: 638px) {
+@media (max-width: 320px) {
+	
+	#mycarousel .item { height: 140px; }
+	.carousel-caption h3{
+		font-size: 15px;
+	}
+	.carousel-indicators li{
+		width:6px;
+		height:6px;
+	}
+	.carousel-indicators .active{
+		width:8px;
+		height:8px;
+
+	}
+	.carousel-caption{
+		font-size: 8px;
+	}
+	
+	#slide1{
+	background: url('../images/carousel-pizza1(x-small).jpg') top center no-repeat;
+	}
+
+	#slide2{
+		background: url('../images/carousel-pizza2(x-small).jpg') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/carousel-pizza3(x-small).jpg') top center no-repeat;
+	}
+	
+}
+@media (min-width: 321px) and (max-width: 638px) {
 	
 	#mycarousel .item { height: 210px; }
 	.carousel-caption h3{
