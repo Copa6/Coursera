@@ -138,6 +138,15 @@
 	.carousel-caption h3{
 		font-size: 20px;
 	}
+	.carousel-indicators li{
+		width:6px;
+		height:6px;
+	}
+	.carousel-indicators .active{
+		width:8px;
+		height:8px;
+
+	}
 	.carousel-caption{
 		font-size: 10px;
 	}
@@ -161,6 +170,15 @@
 	#mycarousel .item { height: 310px; }
 	.carousel-caption h3{
 		font-size: 30px;
+	}
+	.carousel-indicators li{
+		width:8px;
+		height:8px;
+	}
+	.carousel-indicators .active{
+		width:10px;
+		height:10px;
+
 	}
 	.carousel-caption{
 		font-size: 20px;
