@@ -13,13 +13,6 @@
 		
 	});
 
-	/*$('.navigator').bind('mouseleave', function(){
-		move.removeClass('slide-body');
-		main.addClass('col-xs-12');
-		main.removeClass('col-xs-9 col-sm-11 col-md-11');
-		clicker.removeClass('glyphicon-remove');
-		clicker.addClass('glyphicon-align-justify');
-	});*/
 	$('.content').bind('click', function(){
 		move.removeClass('slide-body');
 		main.addClass('col-xs-12');
@@ -28,14 +21,10 @@
 		clicker.addClass('glyphicon-align-justify');
 	});
 
-
-	  /* document.querySelector("body")
-      .addEventListener("mousemove",
-        function (event) {
-          if (event.shiftKey === true) {
-            console.log("x: " + event.clientX);
-            console.log("y: " + event.clientY);
-          }
-        }
-      );*/
+	$('#offers-tile').click(function(e){
+		e.preventDefault();
+		$('#coming-soon').slideDown().delay(4000);
+		$('#coming-soon').slideUp();
+		return false;
+	});
 })();

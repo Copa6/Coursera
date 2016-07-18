@@ -4,6 +4,7 @@
 	padding:0;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+	font-family:'Oxygen', "Times New Roman", sans-serif;
 }
 
 #header-nav{
@@ -122,8 +123,51 @@
 #slide3{
 	background: url('../images/carousel-pizza3.jpg') top center no-repeat;
 }
+#coming-soon{
+	margin: 10px;
+	display:none;
+}
+#coming-soon p{
+	text-decoration: none;
+}
+#menu-tile, #offers-tile, #map-tile{
+	height:200px;
+	border:1px solid #ff5500;
+	margin: 20px 0px;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+#menu-tile{
+	background: url('../images/menu.jpg') no-repeat;
+	background-position: center;
+}
+#offers-tile{
+	background: url('../images/offers.jpg') no-repeat;
+	background-position: center;
 
+}
 
+#map-tile iframe{
+	width:100%;
+}
+
+#menu-tile span, #offers-tile span, #map-tile span{
+	background-color: #ff5100;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	opacity: 0.7;
+	font-size: 1.2em;
+	color:#000;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+
+#menu-tile:hover, #offers-tile:hover, #map-tile:hover{
+	border:2px solid black;
+}
 
 @media (max-width: 474px) {
 	#logo-img{
@@ -228,4 +272,11 @@
 		background: url('../images/carousel-pizza3(med).jpg') top center no-repeat;
 	}
 	
+}
+
+@media (max-width:767px){
+	#menu-tile, #offers-tile{
+	width: 360px;
+    margin: 20px auto;
+	}
 }
