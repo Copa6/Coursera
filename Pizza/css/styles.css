@@ -2,6 +2,8 @@
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 
 #header-nav{
@@ -67,6 +69,7 @@
 	-webkit-transition: width 300ms ease;
 	-moz-transition: width 300ms ease;
 	transition: width 300ms ease;
+
 }
 
 .menu{
@@ -88,15 +91,34 @@
 	margin-bottom: 20px;
 }
 
-#pizza-background{
-	border-radius: 389px;
+/**** CAROUSEL***/
+#mycarousel {
+	margin-top: 10px;
 }
 
-.container{
-	overflow:hidden;
-	shape-outside: polygon(1531px 495px, 1567px 318px, 1708px 177px, 1906px 126px, 2135px 198px, 2270px 441px, 2189px 681px,1924px 828px,1648px 741px );
-  	shape-image-threshold: 0.5;
+#mycarousel .item { height: 400px; }
+
+.carousel-caption h3{
+	font-size: 40px;
+	color:#11ff55;
 }
+.carousel-caption{
+	font-size: 30px;
+	color:#ff5100;
+}
+
+#slide1{
+	background: url('../images/carousel-pizza1.jpg') top center no-repeat;
+}
+
+#slide2{
+	background: url('../images/carousel-pizza2.jpg') top center no-repeat;
+}
+
+#slide3{
+	background: url('../images/carousel-pizza3.jpg') top center no-repeat;
+}
+
 
 
 @media (max-width: 474px) {
@@ -106,18 +128,50 @@
 	}
 	
 }
-/*
-@media (min-width: 768px){
-	#header-nav{
-			height:100px;
-	}
-	.list-items{
-	padding-bottom: 30px;
-	}
-
-	#navigation{
-		padding-top:100px;
-	}
-
+@media (max-width: 638px) {
 	
-}*/
+	#mycarousel .item { height: 210px; }
+	.carousel-caption h3{
+		font-size: 20px;
+	}
+	.carousel-caption{
+		font-size: 10px;
+	}
+	
+	#slide1{
+	background: url('../images/carousel-pizza1(small).jpg') top center no-repeat;
+	}
+
+	#slide2{
+		background: url('../images/carousel-pizza2(small).jpg') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/carousel-pizza3(small).jpg') top center no-repeat;
+	}
+	
+}
+
+@media (min-width: 639px) and (max-width: 992px) {
+	
+	#mycarousel .item { height: 310px; }
+	.carousel-caption h3{
+		font-size: 30px;
+	}
+	.carousel-caption{
+		font-size: 20px;
+	}
+	
+	#slide1{
+	background: url('../images/carousel-pizza1(med).jpg') top center no-repeat;
+	}
+
+	#slide2{
+		background: url('../images/carousel-pizza2(med).jpg') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/carousel-pizza3(med).jpg') top center no-repeat;
+	}
+	
+}

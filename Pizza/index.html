@@ -43,57 +43,45 @@
   </nav>
     <div class="row">
       <div class="main col-xs-12">
-        <!--<img id="pizza-background" src="images/pizza.jpg" alt="Pizzaz image" class="img-responsive">-->
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-        
+
+      <!--Carousel-->
+        <div class="carousel slide" id="mycarousel">
+
+          <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+            <li data-slide-to="1" data-target="#mycarousel"></li>
+            <li data-slide-to="2" data-target="#mycarousel"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="item active" id="slide1">
+              <div class="carousel-caption">
+               <h3>A little deep-dish Italian, goes a long way!</h3>
+                <p>From our deep-dish pans, to your hearts</p>
+              </div>
+            </div>
+            
+            <div class="item" id="slide2">
+              <div class="carousel-caption">
+                <h3>Ice-cream pizza!</h3>
+                <p>For your sweet moments</p>
+              </div>
+            </div>
+            
+            <div class="item" id="slide3">
+              <div class="carousel-caption">
+              <h3>Gr8 Pizza, always leads to gr8 times!</h3>
+                <p>Now delivered to your doorstep.</p>
+                </div>
+            </div>
+            
+          </div>
+          <a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+          <a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+        </div><!--carousel ends-->
+
       </div>
-    
     </div>
-
-  <!--Navbar-->
-  <!--<div class="container-fluid">
-  <div class="row">
-  <div id="collapsable-nav" class="navside collapse navbar-collapse">
-   <div class="col-xs-4 col-sm-3 col-lg-2 col-sm-push-9 col-lg-push-10 col-xs-push-8">
-      <nav id="navigation" class="navbar navbar-inverse navbar-fixed-side ">
-        <ul id="nav-list"  class="nav navbar-nav">
-          <li class="list-items text-center">
-            <a href="index.htlm">Home</a>
-          </li>
-          
-          <li class="list-items text-center">
-            <a href="menu.htlm">Menu</a>
-          </li>
-
-          <li class="list-items text-center">
-            <a href="offers.htlm">Offers</a>
-          </li>
-
-          <li class="list-items text-center">
-            <a href="contact.htlm">Contact Us</a>
-          </li>
-
-          <li class="text-center" id="pizza">
-            <span id="quote">
-            "Pizza is like magic: even when it's bad, it's pretty good."
-            </span>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  </div>
-  </div>
-</div>
-<div class="container">
-<div class="row">
-    <div class="col-sm-12">
-      <div class="jumbotron" style="height:10000px"></div>
-    </div>
-  </div>
-  </div>
--->
 	
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
