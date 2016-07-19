@@ -136,7 +136,7 @@ body{
 #menu-tile, #offers-tile, #map-tile{
 	height:200px;
 	border:1px solid #ff5500;
-	margin: 20px 0px;
+	margin: 20px auto;
 	width:100%;
 	overflow:hidden;
 	position:relative;
@@ -151,9 +151,6 @@ body{
 
 }
 
-#map-tile iframe{
-	width:100%;
-}
 
 #menu-tile span, #offers-tile span, #map-tile span{
 	background-color: #ff5100;
@@ -174,29 +171,28 @@ body{
 
 .panel-footer{
 	margin-top: 30px;
-  	padding-top: 35px;
   	padding-bottom: 10px;
 	border-top: 0;
 	background-color: #ff5500;
 }
 
 .panel-footer div.row {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 #hours > span, #address > span, #contact>span {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 #hours, #address, #contact{
 padding-bottom:20px;
 }
+
 #hours hr, #address hr, #contact hr{
 	width:60%;
 	margin:10px auto;
 }
 
-#address p {
+#address small {
   color: blue;
-  font-size: .8em;
   line-height: 1.8;
 }
 @media (max-width: 474px) {
