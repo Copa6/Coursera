@@ -239,6 +239,13 @@ h2{
 	#quote{
 		font-size: 0.8em;
 	}
+	#tabs li{
+		margin:5px 2px;
+	}
+	#tabs li a{
+		font-size:0.6em;
+		padding:5px 10px;
+	}
 	
 }
 
