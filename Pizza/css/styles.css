@@ -166,7 +166,7 @@ body{
 }
 
 #menu-tile:hover, #offers-tile:hover, #map-tile:hover{
-	border:2px solid black;
+	border:2px solid #fff;
 }
 
 .panel-footer{
@@ -177,7 +177,7 @@ body{
 }
 
 .panel-footer div.row {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #hours > span, #address > span, #contact>span {
   font-size: 1.1em;
@@ -302,7 +302,7 @@ padding-bottom:20px;
 
 @media (max-width:767px){
 	#menu-tile, #offers-tile{
-	width: 350px;
+	max-width: 350px;
     margin: 20px auto;
 	}
 }
