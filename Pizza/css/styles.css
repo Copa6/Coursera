@@ -232,6 +232,12 @@ h2{
 
 /*****Small device- Mob****/
 @media (max-width: 637px) {
+	h2{
+		font-size:20px;
+	}
+	h3{
+		font-size:17px;
+	}
 	#logo-img{
 		height: 60px;
 		width:60px;
@@ -244,7 +250,7 @@ h2{
 	}
 	#tabs li a{
 		font-size:0.6em;
-		padding:5px 10px;
+		padding:5px 7px;
 	}
 	
 }
