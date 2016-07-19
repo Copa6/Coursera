@@ -169,6 +169,7 @@ body{
 	border:2px solid #fff;
 }
 
+/******footer*****/
 .panel-footer{
 	margin-top: 30px;
   	padding-bottom: 10px;
@@ -195,13 +196,53 @@ padding-bottom:20px;
   color: blue;
   line-height: 1.8;
 }
-@media (max-width: 474px) {
+/******end footer*****/
+
+/*****page 1*****/
+
+
+/**Page2 Start**/
+h2{
+	color:#ff5500;
+}
+
+
+#tabs li{
+	margin-right: 5px;
+	background-color: #ff5500;
+	border:none;
+}
+
+#tabs li:hover{
+	background-color: #fff;
+	border:0.5px solid #fff;
+}
+
+#tabs li.active{
+	background-color: #fff;
+}
+
+#tabs li a{
+	color: #11ff55;
+}
+
+
+
+/*****Media queries****/
+
+/*****Small device- Mob****/
+@media (max-width: 637px) {
 	#logo-img{
-		height: 80px;
-		width:80px;
+		height: 60px;
+		width:60px;
+	}
+	#quote{
+		font-size: 0.8em;
 	}
 	
 }
+
+/******x-small devices*****/
 @media (max-width: 320px) {
 	
 	#mycarousel .item { height: 140px; }
@@ -234,6 +275,8 @@ padding-bottom:20px;
 	}
 	
 }
+
+/******Medium size- tablets/ landscape mode******/
 @media (min-width: 321px) and (max-width: 638px) {
 	
 	#mycarousel .item { height: 210px; }
@@ -267,7 +310,16 @@ padding-bottom:20px;
 	
 }
 
+/******Medium- tablet landscape/ small desktop*****/
 @media (min-width: 639px) and (max-width: 992px) {
+
+	#logo-img{
+		height: 80px;
+		width:80px;
+	}
+	#quote{
+		font-size: 0.9em;
+	}
 	
 	#mycarousel .item { height: 310px; }
 	.carousel-caption h3{
@@ -300,6 +352,7 @@ padding-bottom:20px;
 	
 }
 
+/*****tablets*****/
 @media (max-width:767px){
 	#menu-tile, #offers-tile{
 	max-width: 350px;
