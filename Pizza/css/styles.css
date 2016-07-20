@@ -276,6 +276,9 @@ h3{
 #tnc{
 	text-align:right;
 }
+#extras{
+	list-style: none;
+}
 /*****Media queries****/
 
 /*****Small device- Mob****/
