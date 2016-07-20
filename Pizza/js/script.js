@@ -27,4 +27,10 @@
 		$('#coming-soon').slideUp();
 		return false;
 	});
+
+	$('#offers-nav').click(function(e){
+		e.preventDefault();
+		$('#specials-alert').slideDown().delay(5000);
+		$('#specials-alert').slideUp();
+	});
 })();

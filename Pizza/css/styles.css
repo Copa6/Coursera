@@ -9,6 +9,13 @@
 body{
 	background-color: #f7ce2b;
 }
+
+#specials-alert{
+	position: absolute;
+	top:50%;
+	z-index:2000;
+	width:80%;
+}
 #header-nav{
 	position: fixed;
 	background-color: #ff5100;
@@ -126,7 +133,7 @@ body{
 #slide3{
 	background: url('../images/carousel-pizza3.jpg') top center no-repeat;
 }
-#coming-soon{
+.alert{
 	margin: 10px;
 	display:none;
 }
