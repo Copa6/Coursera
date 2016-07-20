@@ -152,11 +152,12 @@ body{
 }
 
 
-#menu-tile span, #offers-tile span, #map-tile span{
+#menu-tile span, #offers-tile span, #map-tile span, .menu-item-tiles span{
 	background-color: #ff5100;
 	width:100%;
 	position:absolute;
 	bottom:0;
+	left:0;
 	opacity: 0.7;
 	font-size: 1.2em;
 	color:#000;
@@ -171,15 +172,15 @@ body{
 
 /******footer*****/
 .panel-footer{
+	position:relative;
+	bottom:0;
+	width:100%;
 	margin-top: 30px;
   	padding-bottom: 10px;
 	border-top: 0;
 	background-color: #ff5500;
 }
 
-.panel-footer div.row {
-  margin-bottom: 10px;
-}
 #hours > span, #address > span, #contact>span {
   font-size: 1.1em;
 }
@@ -196,6 +197,10 @@ padding-bottom:20px;
   color: blue;
   line-height: 1.8;
 }
+
+#copy{
+	font-size:0.7em;
+}
 /******end footer*****/
 
 /*****page 1*****/
@@ -210,12 +215,11 @@ h2{
 #tabs li{
 	margin: 5px;
 	background-color: #ff5500;
-	border:none;
+	border-top-right-radius:5px;
+	border-top-left-radius: 5px; 
 }
-
 #tabs li:hover{
-	background-color: #fff;
-	border:0.5px solid #fff;
+	
 }
 
 #tabs li.active{
@@ -223,15 +227,37 @@ h2{
 }
 
 #tabs li a{
+	margin:0;
 	color: #11ff55;
 }
+.menu-item-tiles{
+	height: 100px;
+	margin: 20px auto;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
 
+.menu-item-image{
+	position: absolute;
+	top:0;
+	left:0;
+	height:100px;
+	width:100px;
+	border:1px solid #fff;
+}
 
-
+.item-description{
+	padding-top: 20px;
+	padding-left:110px;
+}
 /*****Media queries****/
 
 /*****Small device- Mob****/
 @media (max-width: 637px) {
+	.content{
+		padding-top:80px;
+	}
 	h2{
 		font-size:20px;
 	}
@@ -257,8 +283,11 @@ h2{
 
 /******x-small devices*****/
 @media (max-width: 320px) {
-	
+	.content{
+		padding-top:80px;
+	}
 	#mycarousel .item { height: 140px; }
+	
 	.carousel-caption h3{
 		font-size: 15px;
 	}
@@ -325,6 +354,9 @@ h2{
 
 /******Medium- tablet landscape/ small desktop*****/
 @media (min-width: 639px) and (max-width: 992px) {
+	.content{
+		padding-top:100px;
+	}
 	h2{
 		font-size:25px;
 	}
@@ -384,4 +416,14 @@ h2{
 	max-width: 350px;
     margin: 20px auto;
 	}
+	#hours > span, #address > span, #contact>span {
+  		font-size: 0.8em;
+	}
+	#hours, #address, #contact{
+		padding-bottom:5px;
+	}
+	#copy{
+		font-size:0.5em;
+	}
+
 }
