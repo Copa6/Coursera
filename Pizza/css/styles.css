@@ -279,6 +279,14 @@ h3{
 #extras{
 	list-style: none;
 }
+
+/****page 2 ends****/
+
+
+/******Contacts Page****/
+#send-mail{
+	margin:10px;
+}
 /*****Media queries****/
 
 /*****Small device- Mob****/
@@ -306,7 +314,9 @@ h3{
 		font-size:0.6em;
 		padding:5px 7px;
 	}
-	
+	form{
+		margin-top: 10px;
+	}
 }
 
 /******x-small devices*****/
@@ -436,6 +446,9 @@ h3{
 	#slide3{
 		background: url('../images/carousel-pizza3(med).jpg') top center no-repeat;
 	}
+	form{
+		margin-top: 10px;
+	}
 	
 }
 
@@ -453,6 +466,9 @@ h3{
 	}
 	#copy{
 		font-size:0.5em;
+	}
+	form{
+		margin-top: 10px;
 	}
 
 }

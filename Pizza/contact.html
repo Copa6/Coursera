@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>GR8ZZA</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+  <link href="css/navbar-fixed-side.css" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+  <div id="header-nav"  class="navbar navbar-inverse">
+    <a href="#" class="navigator">
+          <span class=" clickbutton glyphicon glyphicon-align-justify pull-right"></span>
+    </a>
+      <div class="text-center" ><img id="logo-img" src="images/GR8ZZA.png" alt="Logo Image" class="img-responsive center-block"><span id="quote">
+            "Pizza is like magic: even when it's bad, it's pretty good."
+            </span>
+        </div>
+  </div>
+</header>
+
+<div class="content container">
+  <!--Alert fro specials tab-->
+  <div class="alert alert-success alert block fade in" id="specials-alert">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <p class="text-center">Gr8 offers on Gr8 pizzas!<br>
+    Coming Soon!</p>
+  </div><!--End specials alert-->
+
+    <nav class="menu">
+        <ul id="nav-list"  class="nav nav-pills nav-stacked">
+          <li class="list-items text-center active">
+            <a href="index.html">Home</a>
+          </li>
+          
+          <li class="list-items text-center">
+            <a href="menu.html">Menu</a>
+          </li>
+
+          <li class="list-items text-center" id="offers-nav">
+            <a href="">Offers</a>
+          </li>
+
+          <li class="list-items text-center">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+    </nav>
+
+    <!--contact us form-->
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-xs-2 control-label" for="input-name">
+               Name
+        </label>
+
+        <div class="col-xs-10">
+          <input type="text" class="form-control" id="input-name" placeholder="Name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-xs-2 control-label" for="input-email">
+               Email
+        </label>
+
+        <div class="col-xs-10">
+          <input type="email" class="form-control" id="input-email" placeholder="xyz@gmail.com">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-xs-2 control-label" for="input-message">
+               Message
+        </label>
+
+        <div class="col-xs-10">
+          <textarea class="form-control" id="input-message" placeholder="Tell us what you feel..." rows="3"></textarea>
+
+          <button id="send-mail" class="btn btn-success pull-right" type="submit">
+            Send
+          </button>
+        </div>
+      </div>
+    </form><!--end form-->
+</div>
+
+
+<footer class="panel-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <section id ="hours" class="col-sm-4 col-xs-12 text-center">
+            <span class="glyphicon glyphicon-time"> HOURS: <br>
+            Mon-Sat: 8:00am-10:00pm<br>
+            Sun: 10:00am-11:45pm<br>
+             </span>
+             <br><hr class="visible-xs">
+          </section>
+
+          <section id ="address" class="col-sm-4 col-xs-12 text-center">
+            <span class="glyphicon glyphicon-map-marker"> ADDRESS: <br>
+            Chamrajpet<br>
+            Bangalore<br>
+            Karnataka(IN)-560018<br>
+            <small>*Delivery free within a radius of 5km.</small></span>
+            <br><hr class="visible-xs">
+          </section>
+
+          <section id="contact" class="col-sm-4 col-xs-12 text-center">
+            <span class="glyphicon glyphicon-phone-alt"> CONTACT: +91-1234567890<br>
+                EMAIL:gr8zza@gmail.com<br>
+            </span><br><hr class="visible-xs">
+          </section><br>
+
+          <section id ="copy" class="col-xs-12 text-center">
+            <span> &copy; GR8ZZA</span>
+          </section><hr class="visible-xs"> 
+
+        </div>
+      </div>
+    </footer>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
