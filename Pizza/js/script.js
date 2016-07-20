@@ -33,4 +33,22 @@
 		$('#specials-alert').slideDown().delay(5000);
 		$('#specials-alert').slideUp();
 	});
+
+	$('#send-mail').click(function(){
+		var name= $('#input-name').val();
+		var email= $('input-email').val();
+		var message= $('#input-message').val();
+
+		if(name=="" || email=="" || message==""){
+			alert('Please Fill Required Feilds');
+		}
+
+		else {
+			alert('Thank you for your feedback!');
+			name.val()="";
+			email.val()="";
+			message.val()="";
+			
+		}
+	});
 })();
